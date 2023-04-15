@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color:  rgb(37, 37, 114);
+}
+
+#header {
+  right: 0px;
+  width: 100%;
+  height: 70px;
+  background: white;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  z-index: 1;
+  box-shadow: 2px 2px 5px gray;
+
+}
+
+#logo {
+  right: 1150px;
+  top: 1px;
+  width: 50pt;
+  cursor: pointer;
+  position: fixed;
+  z-index: 1;
+
+}
+.navigation {
+  position: fixed;
+  width: 100%;
+  top: 10px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav ul {
+  width: 90%;
+  list-style: none;
+  text-align: right;
+  padding-right: 30px;
+}
+
+nav ul li{
+  display: inline;
+  margin: 10px 10px;
+}
+
+nav ul li a {
+  font-weight: bolder;
+  border: 2px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+nav ul li a:hover{
+  color:  rgb(37, 37, 114);
+}
+
+.heading h2 {
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  font-size: 30px;
+  color: white;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  flex: auto;
+  text-align: center;
+}
+
+.box {
+  border: 5px solid white;
+  padding: 10px;
+  margin: 10px;
+  flex: 150px;
+}
+.box h3{
+  color: white;
+  text-align: center;
+}
+.box p{
+  color:  white;
+  text-align: justify;
+}
+.planner{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  margin-left: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+}
+.planner:hover {
+  color: rgb(7, 66, 7);
+}
+
+
+
+@media screen and (max-width : 420px)  {
+  #logo {
+      width: 50pt;
+      cursor: pointer;
+      padding: 10px 0;
+      position: fixed;
+      left: 10px;
+  }
+  .navigation{
+      width: 90%;
+  }
+  nav ul li a{
+      font-size: 10px;
+  }
+  nav ul li{
+      display: inline;
+      margin: 5px 5px;
+  }
+}
+@media screen and (max-width : 550px)  {
+  #logo {
+      width: 50pt;
+      cursor: pointer;
+      padding: 10px 0;
+      position: fixed;
+      left: 10px;
+  }
+}
+
+@media screen and (max-width : 1050px)  {
+  #logo {
+      width: 50pt;
+      cursor: pointer;
+      padding: 10px 0;
+      position: fixed;
+      left: 10px;
+  }
+
+}
+@media screen and (max-width : 1600px){
+  #logo {
+      width: 50pt;
+      cursor: pointer;
+      padding: 10px 0;
+      position: fixed;
+      left: 30px;
+  }
+
+}

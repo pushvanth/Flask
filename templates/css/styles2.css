@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color:  rgb(37, 37, 114);
+}
+
+#header {
+    right: 0px;
+    width: 100%;
+    height: 70px;
+    background: white;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 2px 2px 5px gray;
+  
+  }
+  
+  #logo {
+    right: 1150px;
+    top: 1px;
+    width: 50pt;
+    cursor: pointer;
+    position: fixed;
+    z-index: 1;
+  
+  }
+  .navigation {
+    position: fixed;
+    width: 100%;
+    top: 10px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  nav ul {
+    width: 90%;
+    list-style: none;
+    text-align: right;
+    padding-right: 30px;
+  }
+  
+  nav ul li{
+    display: inline;
+    margin: 10px 10px;
+  }
+  
+  nav ul li a {
+    font-weight: bolder;
+    border: 2px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  nav ul li a:hover{
+    color:  rgb(37, 37, 114);
+  }
+.head1{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.person {
+    text-align: center;
+    display: flex;
+    margin: auto;
+    margin: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 5px solid rgb(118, 118, 118);
+    flex: 200px;
+    cursor: pointer;
+    overflow: hidden;
+   
+}
+.image{
+    margin: 0;
+    top: 50%;
+    left: 50%;
+}
+
+.para h2{
+    text-align: center;
+    color: white;
+}
+.para p{
+    display: flex;
+    text-align: justify;
+    margin: 10px;
+    flex-wrap: wrap;
+    flex: 200px;
+    color: white;
+}
+.contact{
+    background-color: brown;
+    text-align: center;
+    border: 1px rgb(255, 255, 255);
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.contact:hover {
+    color: yellow;
+}
+.site {
+    
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+ 
+}
+.content{
+    margin: 10px;
+    text-decoration: solid;
+    text-align: justify;
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+    text-align: center;
+}
+
+@media screen and (max-width : 420px)  {
+    #logo {
+        width: 50pt;
+        cursor: pointer;
+        padding: 10px 0;
+        position: fixed;
+        left: 10px;
+    }
+    .navigation{
+        width: 90%;
+    }
+    nav ul li a{
+        font-size: 10px;
+    }
+    nav ul li{
+        display: inline;
+        margin: 5px 5px;
+    }
+    .image{
+        margin: 25px;
+    text-align: center;
+    }
+}
+@media screen and (max-width : 550px)  {
+    #logo {
+        width: 50pt;
+        cursor: pointer;
+        padding: 10px 0;
+        position: fixed;
+        left: 10px;
+    }
+}
+
+@media screen and (max-width : 1050px)  {
+    #logo {
+        width: 50pt;
+        cursor: pointer;
+        padding: 10px 0;
+        position: fixed;
+        left: 10px;
+    }
+
+}
+@media screen and (max-width : 1600px){
+    #logo {
+        width: 50pt;
+        cursor: pointer;
+        padding: 10px 0;
+        position: fixed;
+        left: 30px;
+    }
+    .image{
+        text-align: center;
+    }
+
+}
