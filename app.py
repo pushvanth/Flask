@@ -8,6 +8,6 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-@app.route('/places')
+@app.route('places')
 def places():
    return render_template('places.html')
